@@ -10,8 +10,8 @@
     <title>landing-page</title>
 </head>
 <body>
-  <nav class="navbar navbar-default black">
-    <div class="container-fluid">
+  <nav class="navbar navbar-default black no-margin">
+    <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -25,9 +25,9 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li><a href="#About">About</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Resume</a></li>
+          <li><a href="#about-link">About</a></li>
+          <li><a href="#portfolio-link">Portfolio</a></li>
+          <li><a href="#resume-link">Resume</a></li>
             </ul>
           </li>
         </ul>
@@ -39,28 +39,40 @@
   </nav>
     <div class="jumbotron">
         <h2 class="text-center">Ian Bradley</h2>
-        <h4 class="text-center">Full Stack Web Developer</h4>
+        <h4 class="text-center">Full Stack Weeb Developer</h4>
     </div>
-    <div class="top" id="#About">
+    <div class="section" id=about-link>
         <div class="container">
             <div class="row">
                 <div class="col-sm-2"></div>
-                <div class="col-s-8">
-                    <button class="button"><h4>About</h4></div></button>
+                <div class="col-sm-8 about">
+                    <button class="button about-button"><span>About</span></div></button>
                 </div>
                 <div class="col-sm-2"></div>
-                </div>
             </div>
         </div>
     </div>
-    <div class="mid">
+    </div>
+    <div class="section" id="portfolio-link">
         <div class="container">
-            <div class="row"></div>
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8 portfolio">
+                    <button class="button portfolio-button"><span>Portfolio</span></div></button>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
         </div>
     </div>
-    <div class="bottom">
-        <div class="container">
-            <div class="row"></div>
+    <div class="section" id="resume-link">
+        <div class="row">
+            <div class="container">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-8 resume">
+                    <button class="button resume-button"><span>Resume</span></div></button>
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
         </div>
     </div>
     <div class="footer"></div>    

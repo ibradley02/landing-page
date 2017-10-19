@@ -25,7 +25,42 @@
 .white-font{
     color: white;
 }
-.top{
-    height:50% ;
-    width:50% ;
+.about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.about-button{
+    height:100%;
+    width:100%;
+    margin: 0px;
+    display: block;
+    margin-bottom: 0px;
+}
+.portfolio{
+    padding-top: 50px;
+    padding-bottom: 50px;}
+.portfolio-button{
+    height:100%;
+    width:100%;
+    margin: 0px;
+    display: block;
+    margin-bottom: 0px;
+}
+.resume{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.resume-button{
+    height:100%;
+    width:100%;
+    margin: 0px;
+    display: block;
+    margin-bottom: 0px;
+}
+.no-margin{
+    margin: 0px 0px 0px 0px;
+}
+.navbar{
+    border: none;
+    border-radius: 0px;
 }
