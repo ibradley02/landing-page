@@ -35,6 +35,8 @@
     margin: 0px;
     display: block;
     margin-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .portfolio{
     padding-top: 50px;
@@ -45,6 +47,8 @@
     margin: 0px;
     display: block;
     margin-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .resume{
     padding-top: 50px;
@@ -56,6 +60,8 @@
     margin: 0px;
     display: block;
     margin-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .no-margin{
     margin: 0px 0px 0px 0px;
