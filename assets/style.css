@@ -1,0 +1,31 @@
+.jumbotron{
+    color: white;
+    background-image: url("https://images.pexels.com/photos/97077/pexels-photo-97077.jpeg?w=940&h=650&auto=compress&cs=tinysrgb");
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.block{
+    background-color: blue;
+    color: white;
+}
+.header{
+    background-color: black;
+    height: 5em;
+}
+.footer{
+    background-color: black;
+    height: 5em;
+}
+.black{
+    background-color: black;
+    margin-bottom: 0px;
+}
+.white-font{
+    color: white;
+}
+.top{
+    height:50% ;
+    width:50% ;
+}
