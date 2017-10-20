@@ -25,41 +25,17 @@
 .white-font{
     color: white;
 }
-.about{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.about-button{
+.button-style{
     height:60em;
-    width:100%;
     margin: 0px;
     display: block;
     margin-bottom: 0px;
     padding-top: 50px;
     padding-bottom: 50px;
+    background-color: grey;
+    outline: black solid 1px;
 }
-.portfolio{
-    padding-top: 50px;
-    padding-bottom: 50px;}
-.portfolio-button{
-    height:60em;
-    width:100%;
-    margin: 0px;
-    display: block;
-    margin-bottom: 0px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.resume{
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.resume-button{
-    height:60em;
-    width:100%;
-    margin: 0px;
-    display: block;
-    margin-bottom: 0px;
+.button-padding{
     padding-top: 50px;
     padding-bottom: 50px;
 }
