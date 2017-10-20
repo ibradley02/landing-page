@@ -25,7 +25,17 @@
 .white-font{
     color: white;
 }
-.button-style{
+.button-style-about{
+    height:30em;
+    margin: 0px;
+    display: block;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: grey;
+    outline: black solid 1px;
+}
+.button-style-portfolio{
     height:20em;
     margin: 0px;
     display: block;
@@ -33,6 +43,16 @@
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: grey;
+    outline: black solid 1px;
+}
+.button-style-contact{
+    height:30em;
+    margin: 0px;
+    display: block;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: red;
     outline: black solid 1px;
 }
 .button-padding{
