@@ -116,20 +116,11 @@ perspective: 800;
   -webkit-transform: rotatex(-180deg);
     transform: rotatex(-180deg);}
 /* BUTTON HOVER */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,800);
-
 *, *:before, *:after{
   box-sizing: border-box;
   padding: 0; margin: 0;
-  font: 300 1em/1.5 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  text-decoration: none;
-  color: #111;
 }
-
-html, body{background: rgb(236, 240, 241);}
-
   section.container{
-    min-width: 500px;
     margin: 10% auto;
     text-align: center;
   }
@@ -147,7 +138,7 @@ html, body{background: rgb(236, 240, 241);}
       background: transparent; outline: none;
       position: relative;
       border: 2px solid #111;
-      padding: 15px 50px;
+      /* padding: 15px 50px; */
       overflow: hidden;
     }
 
