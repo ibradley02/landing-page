@@ -1,15 +1,15 @@
-$('.flip').click(function(){
+$('.flip').hover(function(){
     $(this).find('.card').toggleClass('flipped');
 });
 
-$('#toggle').on('click' ,function(){
+$('#toggle').on('hover' ,function(){
     $('.card').toggleClass('flipped');
 });
 
-$('#front').on('click' ,function(){
+$('#front').on('hover' ,function(){
     $('.card').addClass('flipped');
 });
 
-$('#back').on('click' ,function(){
+$('#back').on('hover' ,function(){
     $('.card').removeClass('flipped');
 });
