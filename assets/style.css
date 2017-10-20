@@ -44,6 +44,7 @@
     padding-bottom: 50px;
     background-color: grey;
     outline: black solid 1px;
+    width: 40vh;
 }
 .button-style-contact{
     height:30em;
@@ -69,7 +70,7 @@
 .subheading{
     margin: 0px 0px 0px 0px;
     height: 5em;
-    widows: 100%;
+    width: 100%;
     background-color: black;
     color: white;
     display: flex;
@@ -125,7 +126,7 @@ perspective: 800;
     text-align: center;
   }
     a:hover{border-bottom: 1px solid #111;} 
-    h1{font-size: 2em; padding: 20px 0;}
+    h1{font-size: 2em;}
     p{
       font-size: .75em;
       text-transform: uppercase;
