@@ -1,12 +1,19 @@
 <template>
-    <div class="row text-center">
-        <nav class="navbar navbar-default navbar-fixed-top myNavbar">
-            <h1>Ian Bradley</h1>
+    <div class="row">
+        <nav class="navbar navbar-default myNavbar">
+            <div class="col-sm-1">
+                <router-link :to="{ path: '/' }">Home</router-link>
+            </div>
+            <div class="col-sm-1">
+                <router-link :to="{ path: '/about' }">About</router-link>
+            </div>
+            <div class="col-sm-1">
+                <router-link :to="{ path: '/portfolio' }">Portfolio</router-link>
+            </div>
+
         </nav>
     </div>
 </template>
-
-
 <script>
     export default {
         name: 'navbar',
@@ -22,18 +29,23 @@
         }
     }
 </script>
-
-
-
 <style>
-    .myNavbar {
-        background-color: rgba(0, 1, 3, 0);
-        display: flex;
-        margin-bottom: 0px;
+    a {
+        color: white;
     }
+
+    .myNavbar {
+        background-color: rgba(4, 61, 175, 0.801);
+        display: flex;
+        color: white;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
     .navbar {
         border: 0px;
     }
+
     .navbar-btn {
         background: black;
         border: 0px;
