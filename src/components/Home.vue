@@ -1,7 +1,11 @@
 <template>
   <div class="hello">
     <navbar></navbar>
-    <h1>Test</h1>
+    <div class="main">
+        <header>
+            <h1>Home</h1>
+        </header>
+    </div>
   </div>
 </template>
 

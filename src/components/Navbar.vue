@@ -10,6 +10,9 @@
             <div class="col-sm-1">
                 <router-link :to="{ path: '/portfolio' }">Portfolio</router-link>
             </div>
+            <div class="col-sm-9 text-center">
+                <a href="http://www.github.com/ibradley02" target="_blank">Github</a>
+            </div>
 
         </nav>
     </div>
