@@ -18,4 +18,8 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+
+.main {
+  text-align: center;
+}
 </style>

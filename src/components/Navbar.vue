@@ -2,19 +2,40 @@
     <div class="row navbar-center">
         <nav class="navbar navbar-default myNavbar">
             <div class="col-sm-1 text-style">
-                <router-link :to="{ path: '/' }"><h5>Home</h5></router-link>
+                <button>
+                    <router-link :to="{ path: '/' }">
+                        <h5>Home</h5>
+                    </router-link>
+                </button>
             </div>
             <div class="col-sm-1 text-style">
-                <router-link :to="{ path: '/about' }"><h5>About</h5></router-link>
+                <button>
+                    <router-link :to="{ path: '/about' }">
+                        <h5>About</h5>
+                    </router-link>
+                </button>
             </div>
             <div class="col-sm-1 text-style">
-                <router-link :to="{ path: '/portfolio' }"><h5>Portfolio</h5></router-link>
+                <button>
+                    <router-link :to="{ path: '/portfolio' }">
+                        <h5>Portfolio</h5>
+                    </router-link>
+                </button>
             </div>
             <div class="col-sm-1 text-style">
-                <router-link :to="{ path: '/resume' }"><h5>Resume</h5></router-link>
+                <button>
+                    <router-link :to="{ path: '/resume' }">
+                        <h5>Resume</h5>
+                    </router-link>
+
+                </button>
             </div>
             <div class="col-sm-8 text-center text-style">
-                <a href="http://www.github.com/ibradley02" target="_blank"><i class="fa fa-github"></i> <h5>Github</h5></a>
+                <i class="fa fa-github fa-2x"></i>
+                <form action="http://github.com/ibradley02">
+                    <input type="submit" value="Github" target="_blank" />
+                </form>
+                </button>
             </div>
         </nav>
     </div>
@@ -35,15 +56,58 @@
     }
 </script>
 <style scoped>
+    nav {
+        border-radius: 0%
+    }
+
     i {
+        display: inline-block;
         color: white;
     }
-    nav {
-        width: 75%;
+
+    .flex {
+        display: inline-block;
     }
 
     a {
         color: white;
+    }
+
+    button {
+        border-radius: 25%;
+        margin-bottom: 2vh;
+        border: none;
+        outline: none !important;
+        box-shadow: none !important;
+        background-color: rgba(4, 61, 175, 0);
+    }
+
+    button:hover {
+        margin-bottom: 2vh;
+        cursor: pointer;
+        background-color: rgba(3, 43, 122, 0.801);
+    }
+
+    button:active {
+        margin-bottom: 2vh;
+        outline: none !important;
+        border: none;
+        background-color: rgba(3, 43, 122, 0.801);
+
+    }
+
+    button:active:focus {
+        margin-bottom: 2vh;
+        outline: none !important;
+        background-color: rgba(3, 43, 122, 0.801);
+
+    }
+
+    button:focus {
+        margin-bottom: 2vh;
+        outline: none !important;
+        background-color: rgba(3, 43, 122, 0.801);
+
     }
 
     .text-style {
@@ -68,11 +132,6 @@
     }
 
     .navbar {
-        border: 0px;
-    }
-
-    .navbar-btn {
-        background: black;
         border: 0px;
     }
 </style>
