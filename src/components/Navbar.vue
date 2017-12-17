@@ -1,19 +1,21 @@
 <template>
     <div class="row">
         <nav class="navbar navbar-default myNavbar">
-            <div class="col-sm-1">
+            <div class="col-sm-1 text-style">
                 <router-link :to="{ path: '/' }">Home</router-link>
             </div>
-            <div class="col-sm-1">
+            <div class="col-sm-1 text-style">
                 <router-link :to="{ path: '/about' }">About</router-link>
             </div>
-            <div class="col-sm-1">
+            <div class="col-sm-1 text-style">
                 <router-link :to="{ path: '/portfolio' }">Portfolio</router-link>
             </div>
-            <div class="col-sm-9 text-center">
+            <div class="col-sm-1 text-style">
+                <router-link :to="{ path: '/resume' }">Resume</router-link>
+            </div>
+            <div class="col-sm-8 text-center text-style">
                 <a href="http://www.github.com/ibradley02" target="_blank">Github</a>
             </div>
-
         </nav>
     </div>
 </template>
@@ -33,7 +35,12 @@
     }
 </script>
 <style>
-    a {
+    .text-style {
+        color: white !important;
+        margin-top: 5vh;
+    }
+
+    .router-link-active {
         color: white;
     }
 
