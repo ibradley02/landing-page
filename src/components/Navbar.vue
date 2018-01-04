@@ -3,13 +3,6 @@
         <nav class="navbar navbar-default myNavbar">
             <div class="col-sm-1 text-style">
                 <button>
-                    <router-link :to="{ path: '/' }">
-                        <h5>Home</h5>
-                    </router-link>
-                </button>
-            </div>
-            <div class="col-sm-1 text-style">
-                <button>
                     <router-link :to="{ path: '/about' }">
                         <h5>About</h5>
                     </router-link>
@@ -27,15 +20,12 @@
                     <router-link :to="{ path: '/resume' }">
                         <h5>Resume</h5>
                     </router-link>
-
                 </button>
             </div>
-            <div class="col-sm-8 text-center text-style">
-                <i class="fa fa-github fa-2x"></i>
-                <form action="http://github.com/ibradley02">
-                    <input type="submit" value="Github" target="_blank" />
-                </form>
-                </button>
+            <div class="col-sm-1 text-center text-style">
+                <a href="http://github.com/ibradley02" target=_blank>
+                    <i class="fa fa-github fa-2x"></i>
+                </a>
             </div>
         </nav>
     </div>
