@@ -102,7 +102,7 @@
 
     .text-style {
         color: white !important;
-        margin-top: 2vh;
+        margin-top: 1vh;
     }
 
     .router-link-active {

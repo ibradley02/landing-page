@@ -10,7 +10,7 @@
                 <div class="col-sm-4 panel-style">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h4>About Me</h4>
+                            <h3>About Me</h3>
                         </div>
                         <div class="panel-body">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ut aliquid nostrum laborum quisquam.
@@ -23,7 +23,7 @@
                 <div class="col-sm-4 col2 panel-style">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            <h4>Objective</h4>
+                            <h3>Objective</h3>
                         </div>
                         <div class="panel-body">
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum hic facilis iste libero quam aspernatur
@@ -58,7 +58,7 @@
     .panel-style {
         float: none;
         margin: 0 auto;
-        margin-top: 10vh;
+        margin-top: 5vh;
         display: inline-block;
     }
     .col2 {
