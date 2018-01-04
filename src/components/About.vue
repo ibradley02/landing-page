@@ -4,6 +4,7 @@
         <div class="main row">
             <header class="col-sm-12">
                 <h1>Ian Bradley</h1>
+                <h4>Web Developer</h4>
             </header>
             <div>
                 <div class="col-sm-4 panel-style">
@@ -57,9 +58,13 @@
     .panel-style {
         float: none;
         margin: 0 auto;
+        margin-top: 10vh;
         display: inline-block;
     }
     .col2 {
         margin-left: 2vw;
+    }
+    header {
+        margin-top: 1vh;
     }
 </style>

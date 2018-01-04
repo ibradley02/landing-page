@@ -114,7 +114,7 @@
     }
 
     .myNavbar {
-        background-color: rgba(4, 61, 175, 0.801);
+        background-color: rgba(4, 61, 175, 0.582);
         display: flex;
         color: white;
         margin-bottom: 0px;
