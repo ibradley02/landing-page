@@ -5,7 +5,7 @@
             <header class="col-sm-12">
                 <h1>Ian Bradley</h1>
             </header>
-            <div class="row">
+            <div>
                 <div class="col-sm-4 panel panel-default">
                     <div class="panel-heading">
                         <h4>About Me</h4>
