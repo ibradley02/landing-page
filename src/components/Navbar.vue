@@ -65,7 +65,6 @@
 
     button {
         border-radius: 25%;
-        margin-bottom: 2vh;
         border: none;
         outline: none !important;
         box-shadow: none !important;
@@ -73,13 +72,11 @@
     }
 
     button:hover {
-        margin-bottom: 2vh;
         cursor: pointer;
         background-color: rgba(3, 43, 122, 0.801);
     }
 
     button:active {
-        margin-bottom: 2vh;
         outline: none !important;
         border: none;
         background-color: rgba(3, 43, 122, 0.801);
@@ -87,14 +84,12 @@
     }
 
     button:active:focus {
-        margin-bottom: 2vh;
         outline: none !important;
         background-color: rgba(3, 43, 122, 0.801);
 
     }
 
     button:focus {
-        margin-bottom: 2vh;
         outline: none !important;
         background-color: rgba(3, 43, 122, 0.801);
 
@@ -102,7 +97,6 @@
 
     .text-style {
         color: white !important;
-        margin-top: 1vh;
     }
 
     .router-link-active {
@@ -119,6 +113,7 @@
         color: white;
         margin-bottom: 0px;
         text-align: center;
+        height: 1vh
     }
 
     .navbar {

@@ -54,7 +54,7 @@
     }
 </script>
 
-<style>
+<style scoped>
     .panel-style {
         float: none;
         margin: 0 auto;
