@@ -1,15 +1,24 @@
 <template>
   <div class="main">
     <div>
-        <header>
-            <h1>Home</h1>
-        </header>
+        <div id="about">
+          <about></about>
+        </div>
+        <div id="portfolio">
+          <portfolio></portfolio>
+        </div>
+        <div id="resume">
+          <resume></resume>
+        </div>
     </div>
   </div>
 </template>
 
 <script>
 import Navbar from './Navbar'
+import About from './About'
+import Portfolio from './Portfolio'
+import Resume from './Resume'
 export default {
   name: 'Home',
   data () {
@@ -18,7 +27,10 @@ export default {
     }
   },
   components: {
-    Navbar
+    Navbar,
+    About,
+    Portfolio,
+    Resume
   }
 }
 </script>
@@ -26,7 +38,6 @@ export default {
 <style scoped>
 .main {
   text-align: center;
-  margin-top: 2vh !important;
 }
 h1, h2 {
   font-weight: normal;

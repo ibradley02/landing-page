@@ -14,21 +14,6 @@ export default new Router({
       path: '/',
       name: 'Home',
       component: Home
-    },
-    {
-      path: '/about',
-      name: 'About',
-      component: About
-    },
-    {
-      path: '/portfolio',
-      name: 'Portfolio',
-      component: Portfolio
-    },
-    {
-      path: '/resume',
-      name: 'Resume',
-      component: Resume
     }
   ]
 })

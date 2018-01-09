@@ -1,6 +1,7 @@
 <template>
   <div id="app" class="container-fluid">
     <navbar></navbar>
+    <sidebar></sidebar>
     <div class="main">
       <router-view></router-view>
     </div>
@@ -9,10 +10,12 @@
 
 <script>
   import Navbar from './components/Navbar'
+  import Sidebar from './components/Sidebar'
   export default {
     name: 'app',
     components: {
-      Navbar
+      Navbar,
+      Sidebar
     }
   }
 </script>
@@ -27,6 +30,6 @@
   }
 
   .main {
-    margin-top: 5vh;
+    margin-top: 10vh;
   }
 </style>
