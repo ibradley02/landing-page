@@ -1,28 +1,28 @@
 <template>
     <div class="row navbar-center">
         <nav class="navbar navbar-default myNavbar">
-            <div class="col-sm-1 text-style">
+            <div class="col-sm-3 text-style">
                 <button>
                     <router-link :to="{ path: '/about' }">
                         <h5>About</h5>
                     </router-link>
                 </button>
             </div>
-            <div class="col-sm-1 text-style">
+            <div class="col-sm-3 text-style">
                 <button>
                     <router-link :to="{ path: '/portfolio' }">
                         <h5>Portfolio</h5>
                     </router-link>
                 </button>
             </div>
-            <div class="col-sm-1 text-style">
+            <div class="col-sm-3 text-style">
                 <button>
                     <router-link :to="{ path: '/resume' }">
                         <h5>Resume</h5>
                     </router-link>
                 </button>
             </div>
-            <div class="col-sm-1 text-center text-style">
+            <div class="col-sm-3 text-center text-style">
                 <a href="http://github.com/ibradley02" target=_blank>
                     <i class="fa fa-github fa-2x"></i>
                 </a>
@@ -97,6 +97,7 @@
 
     .text-style {
         color: white !important;
+        width: 100%;
     }
 
     .router-link-active {
@@ -109,11 +110,14 @@
 
     .myNavbar {
         background-color: rgba(4, 61, 175, 0.582);
-        display: flex;
+        display: inline-flex;
         color: white;
+        margin: 0 auto;
         margin-bottom: 0px;
         text-align: center;
-        height: 1vh
+        height: 1vh;
+        width: 100%;
+        position: relative;
     }
 
     .navbar {

@@ -10,8 +10,8 @@
                     <img src="https://i.imgur.com/JQs05hS.png" alt="A Kanban Website">
                     <div v-show="info.show" class="row">
                         <p class="col-sm-12">A Kanban application made in vue with node.js</p>
-                        <a class="col-sm-6" href="https://github.com/ibradley02/vue-kanban" target="_blank">View Code</a>
-                        <a class="col-sm-6" href="http://kanban-track-it.herokuapp.com/#/" target="_blank">Visit Website</a>
+                        <a class="col-sm-6" href="https://github.com/ibradley02/vue-kanban" target="_blank"><i class="glyphicon glyphicon-cloud"> View Code</i></a>
+                        <a class="col-sm-6" href="http://kanban-track-it.herokuapp.com/#/" target="_blank"> <i class="glyphicon glyphicon-cloud"> Visit Website</i></a>
                     </div>
                 </div>
             </div>
