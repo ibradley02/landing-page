@@ -76,7 +76,7 @@
         min-height: 10vh;
         z-index: 1 !important;
         margin-top: 15vh;
-        margin-left: 70px;
+        margin-left: 2vw;
         display: flex;
         float: none;
         margin-top: 20vh;
