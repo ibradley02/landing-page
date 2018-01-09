@@ -33,6 +33,19 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-sm-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3>Skills</h3>
+                        </div>
+                        <div class="panel-body">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum hic facilis iste libero quam aspernatur
+                                quae pariatur omnis velit ad dolore delectus aliquid aut consectetur tempore blanditiis veritatis,
+                                non molestiae quod officia nemo voluptate modi similique? Distinctio perspiciatis laborum, deleniti
+                                ipsum molestias molestiae, nesciunt consequuntur alias ex itaque ullam debitis!</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
