@@ -110,14 +110,13 @@
 
     .myNavbar {
         background-color: rgba(4, 61, 175, 0.582);
-        display: inline-flex;
+        display: flex;
+        position: absolute;
+        float: none;
         color: white;
         margin: 0 auto;
-        margin-bottom: 0px;
         text-align: center;
-        height: 1vh;
         width: 100%;
-        position: relative;
     }
 
     .navbar {

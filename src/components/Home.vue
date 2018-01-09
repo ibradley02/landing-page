@@ -1,7 +1,6 @@
 <template>
-  <div class="hello">
-    <navbar></navbar>
-    <div class="main">
+  <div class="main">
+    <div>
         <header>
             <h1>Home</h1>
         </header>
@@ -25,21 +24,11 @@ export default {
 </script>
 
 <style scoped>
-.hello {
+.main {
   text-align: center;
+  margin-top: 2vh !important;
 }
 h1, h2 {
   font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
 }
 </style>
