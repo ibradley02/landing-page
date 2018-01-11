@@ -11,11 +11,6 @@
                     <h5>Portfolio</h5>
                 </a>
             </div>
-            <div class="col-sm-12 text-style">
-                <a href="#resume">
-                    <h5>Resume</h5>
-                </a>
-            </div>
             <div class="col-sm-12">
                 <a href="http://github.com/ibradley02" target=_blank>
                     <i class="fa fa-github fa-2x"></i>
@@ -75,11 +70,10 @@
         max-width: 100px;
         min-height: 10vh;
         z-index: 1 !important;
-        margin-top: 15vh;
         margin-left: 7vw;
         display: flex;
         float: none;
-        margin-top: 40vh;
+        margin-top: 45vh;
         text-align: center;
         width: 10%;
     }

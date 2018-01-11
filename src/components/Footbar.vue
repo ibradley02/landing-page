@@ -37,7 +37,7 @@ nav {
 }
 
 .myFooter {
-  background-color: #9c27b0;
+  background-color: #BDBDBD;
   display: flex;
   position: absolute;
   float: none;
