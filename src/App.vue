@@ -4,17 +4,20 @@
     <div class="main">
       <router-view></router-view>
     </div>
+    <footbar></footbar>
   </div>
 </template>
 
 <script>
   import Navbar from './components/Navbar'
   import Sidebar from './components/Sidebar'
+  import Footbar from './components/Footbar'
   export default {
     name: 'app',
     components: {
       Navbar,
-      Sidebar
+      Sidebar,
+      Footbar
     }
   }
 </script>

@@ -26,7 +26,7 @@
 </template>
 <script>
     export default {
-        name: 'navbar',
+        name: 'sidebar',
         data() {
             return {
             }
@@ -42,35 +42,35 @@
 <style scoped>
     i {
         display: inline-block;
-        color: white;
+        color: #000;
     }
 
     a {
-        color: white;
+        color: #000;
         border: 0;
     }
 
     .router-link-active {
-        color: white;
+        color: #000;
     }
 
     .router-link-exact-active {
-        color: white;
+        color: #000;
     }
 
     .text-style{
-        outline: #fff;
+        outline: #000;
     }
 
     .fa{
-        color: white;
+        color: #000;
     }
 
     #sidebar {
         border-radius: 10px;
         position: fixed;
-        background: rgb(0, 0, 0);
-        color: #fff;
+        background: #CDDC39;
+        color: #000;
         min-width: 50px;
         max-width: 100px;
         min-height: 10vh;

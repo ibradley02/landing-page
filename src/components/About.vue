@@ -36,6 +36,9 @@
                     <i class="devicon-nodejs-plain-wordmark"></i>
                     <i class="devicon-mocha-plain"></i>
                     <i class="devicon-vuejs-plain-wordmark"></i>
+                    <i class="devicon-mongodb-plain-wordmark"></i>
+                    <i class="devicon-csharp-plain-wordmark"></i>
+                    <i class="devicon-bootstrap-plain-wordmark"></i>
                 </div>
             </div>
         </div>
@@ -79,7 +82,8 @@ export default {
   margin: 0 auto;
 }
 i{
-    margin-left: 1em;
+    /* margin: 0 auto !important; */
+    margin: 0 2rem 0 2rem;
     font-size: 4em;
 }
 </style>
