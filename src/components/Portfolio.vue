@@ -3,10 +3,10 @@
         <header>
             <h1>Portfolio</h1>
         </header>
-        <div class="col-sm-3">
-            <div @mouseover="info.show = true" @mouseleave="info.show = false" class="btn btn-default panel-style content">
+        <div class="col-sm-6 panel-style">
+            <div @mouseover="info.show = true" @mouseleave="info.show = false" class="btn btn-default button-style content">
                 <img src="https://i.imgur.com/JQs05hS.png" alt="A Kanban Website">
-                <div v-show="info.show" class="row">
+                <div v-show="info.show" class="row panel-style">
                     <p class="col-sm-12">A Kanban application made in vue with node.js</p>
                     <a class="col-sm-6" href="https://github.com/ibradley02/vue-kanban" target="_blank">
                         <i class="glyphicon glyphicon-cloud"> View Code</i>
@@ -17,17 +17,17 @@
                 </div>
             </div>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-6 panel-style">
             <a href="http://kanban-track-it.herokuapp.com/#/" class="btn btn-default panel-style">
                 <img src="https://i.imgur.com/JQs05hS.png" alt="A Kanban Website">
             </a>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-6 panel-style">
             <a href="http://kanban-track-it.herokuapp.com/#/" class="btn btn-default panel-style">
                 <img src="https://i.imgur.com/JQs05hS.png" alt="A Kanban Website">
             </a>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-6 panel-style">
             <a href="http://kanban-track-it.herokuapp.com/#/" class="btn btn-default panel-style">
                 <img src="https://i.imgur.com/JQs05hS.png" alt="A Kanban Website">
             </a>
@@ -64,9 +64,16 @@
         width: 100%;
     }
 
-    .panel-style {
+    .button-style {
         padding: 1rem 1rem 1rem 1rem;
         margin: 0 auto;
+    }
+    .panel-style {
+        float: none;
+        margin: 0 auto;
+        margin-top: 5vh;
+        display: inline-block;
+        width: 60%;
     }
 
     .col-sm-3 {

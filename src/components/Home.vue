@@ -7,9 +7,6 @@
         <div id="portfolio">
           <portfolio></portfolio>
         </div>
-        <div id="resume">
-          <resume></resume>
-        </div>
     </div>
   </div>
 </template>
@@ -18,7 +15,6 @@
 import Navbar from './Navbar'
 import About from './About'
 import Portfolio from './Portfolio'
-import Resume from './Resume'
 export default {
   name: 'Home',
   data () {
@@ -29,8 +25,7 @@ export default {
   components: {
     Navbar,
     About,
-    Portfolio,
-    Resume
+    Portfolio
   }
 }
 </script>

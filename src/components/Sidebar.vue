@@ -76,10 +76,10 @@
         min-height: 10vh;
         z-index: 1 !important;
         margin-top: 15vh;
-        margin-left: 2vw;
+        margin-left: 7vw;
         display: flex;
         float: none;
-        margin-top: 20vh;
+        margin-top: 40vh;
         text-align: center;
         width: 10%;
     }
