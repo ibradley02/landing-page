@@ -5,7 +5,7 @@
                 <div class="panel-body">
                     <img src="https://avatars3.githubusercontent.com/u/32853737?s=400&u=7ba97f8aa0fae545fe5a56e5aecc37aaa604548a&v=4" class="image-style">
                     <h1>Ian Bradley</h1>
-                    <h4 class="subheading">Web Developer</h4>
+                    <h4 class="subheading">Software Developer</h4>
                     <a>ianbradleydebate@gmail.com</a>
                 </div>
             </div>

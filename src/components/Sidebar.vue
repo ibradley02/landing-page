@@ -12,8 +12,14 @@
                 </a>
             </div>
             <div class="col-sm-12">
+                <h5>Resume</h5>
+            </div>
+            <div class="col-sm-12">
                 <a href="http://github.com/ibradley02" target=_blank>
                     <i class="fa fa-github fa-2x"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ian-bradley-4a5a0b157/" target=_blank>
+                    <i class="fa fa-linkedin-square fa-2x"></i>
                 </a>
             </div>
         </nav>
@@ -76,5 +82,9 @@
         margin-top: 45vh;
         text-align: center;
         width: 10%;
+    }
+
+    .col-sm-6{
+        margin: auto auto;
     }
 </style>

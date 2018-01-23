@@ -5,6 +5,9 @@
                 <a href="http://github.com/ibradley02" target=_blank>
                     <i class="fa fa-github fa-2x"></i>
                 </a>
+                <a href="https://www.linkedin.com/in/ian-bradley-4a5a0b157/" target=_blank>
+                    <i class="fa fa-linkedin-square fa-2x"></i>
+                </a>
             </div>
         </nav>
     </div>
