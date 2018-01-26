@@ -4,14 +4,15 @@
             <h1>Portfolio</h1>
         </header>
         <div class="col-sm-6 panel-style">
-            <div @mouseover="info.show = true" @mouseleave="info.show = false" class="btn btn-default button-style content">
+            <div @mouseover="info.show = true" @mouseleave="info.show = false" class="btn btn-default content">
                 <img src="https://i.imgur.com/JQs05hS.png" alt="A Kanban Website">
-                <div v-show="info.show" class="row panel-style">
+                <div v-show="info.show" class="panel-style boxed-content">
+                    <h3 class="col-sm-12">Trak-It</h3>
                     <p class="col-sm-12">A Kanban application made in vue with node.js</p>
-                    <a class="col-sm-6" href="https://github.com/ibradley02/vue-kanban" target="_blank">
+                    <a class="col-sm-6 width-reduce" href="https://github.com/ibradley02/vue-kanban" target="_blank">
                         <i class="glyphicon glyphicon-cloud"> View Code</i>
                     </a>
-                    <a class="col-sm-6" href="http://kanban-track-it.herokuapp.com/#/" target="_blank">
+                    <a class="col-sm-6 width-reduce" href="http://kanban-track-it.herokuapp.com/#/" target="_blank">
                         <i class="glyphicon glyphicon-cloud"> Visit Website</i>
                     </a>
                 </div>
@@ -19,12 +20,12 @@
         </div>
         <div class="col-sm-6 panel-style">
             <a href="http://kanban-track-it.herokuapp.com/#/" class="btn btn-default panel-style">
-                <img src="https://i.imgur.com/JQs05hS.png" alt="A Kanban Website">
+                <img src="https://i.imgur.com/5nZwfGh.png" alt="A Rss Feed Application">
             </a>
         </div>
         <div class="col-sm-6 panel-style">
             <a href="http://kanban-track-it.herokuapp.com/#/" class="btn btn-default panel-style">
-                <img src="https://i.imgur.com/JQs05hS.png" alt="A Kanban Website">
+                <img src="https://i.imgur.com/glJL5nT.png" alt="An application that searches the Itunes API">
             </a>
         </div>
         <div class="col-sm-6 panel-style">
@@ -90,11 +91,11 @@
         width: 100%;
         height: 100%;
         bottom: 0;
-        background: rgba(211, 211, 211, 0.3);
+        background: rgba(211, 211, 211, 0.5);
         color: black;
         display: block;
         padding: 1rem 1rem 1rem 1rem;
-        margin: 0 auto 0 5px;
+        margin: 0 auto;
         background-clip: content-box;
     }
 </style>
