@@ -1,6 +1,5 @@
 <template>
-  <div id="app" class="container-fluid background-style">
-    <sidebar></sidebar>
+  <div id="app" class="container-fluid">
     <div class="main">
       <router-view></router-view>
     </div>

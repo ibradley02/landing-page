@@ -1,13 +1,6 @@
 <template>
   <div class="main">
-    <!-- <div>
-        <div id="about">
-          <about></about>
-        </div>
-        <div id="portfolio">
-          <portfolio></portfolio>
-        </div>
-    </div> -->
+    <sidebar></sidebar>
   </div>
 </template>
 
@@ -15,6 +8,8 @@
 import Navbar from './Navbar'
 import About from './About'
 import Portfolio from './Portfolio'
+import Sidebar from './Sidebar'
+import Profile from './Profile'
 export default {
   name: 'Home',
   data () {
@@ -25,7 +20,9 @@ export default {
   components: {
     Navbar,
     About,
-    Portfolio
+    Portfolio,
+    Sidebar,
+    Profile
   }
 }
 </script>
