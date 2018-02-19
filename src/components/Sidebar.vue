@@ -1,28 +1,31 @@
 <template>
     <div class="row" id="sidebar">
-        <nav>
-            <div class="col-sm-12 text-style">
+        <ul class="list-unstyled">
+            <li class="col-sm-12 text-top text-style">
                 <a href="#about">
                     <h5>About</h5>
                 </a>
-            </div>
-            <div class="col-sm-12 text-style">
+            </li>
+            <li class="col-sm-12 text-style">
                 <a href="#portfolio">
                     <h5>Portfolio</h5>
                 </a>
-            </div>
-            <div class="col-sm-12">
+            </li>
+            <li class="col-sm-12 text-style">
                 <h5>Resume</h5>
-            </div>
-            <div class="col-sm-12">
+            </li>
+            <li class="col-sm-12 text-style">
+                <h5>Contact</h5>
+            </li>
+            <li class="col-sm-12 text-bottom">
                 <a href="http://github.com/ibradley02" target=_blank>
                     <i class="fa fa-github fa-2x"></i>
                 </a>
                 <a href="https://www.linkedin.com/in/ian-bradley-4a5a0b157/" target=_blank>
                     <i class="fa fa-linkedin-square fa-2x"></i>
                 </a>
-            </div>
-        </nav>
+            </li>
+        </ul>
     </div>
 </template>
 <script>
@@ -68,23 +71,43 @@
     }
 
     #sidebar {
-        border-radius: 10px;
         position: fixed;
-        background: #CDDC39;
+        background: rgb(252, 252, 252);
         color: #000;
-        min-width: 50px;
-        max-width: 100px;
+        min-width: 15vw;
+        max-width: 20vw;
         min-height: 10vh;
         z-index: 1 !important;
-        margin-left: 7vw;
+        margin-left: 25vw;
         display: flex;
         float: none;
         margin-top: 45vh;
         text-align: center;
         width: 10%;
+        border: 1px solid #000;
+        box-shadow: 2px 2px 5px black;
+        text-decoration: none;
+
     }
 
     .col-sm-6{
         margin: auto auto;
+    }
+
+    .text-style{
+        display: block;
+        background: lightgray;
+        text-align: center;
+        padding: 2px 6px 9px 6px;
+        text-transform: uppercase;
+        background-clip:content-box;
+        text-decoration: none;
+    }
+
+    .text-top{
+        margin-top: 5vh;
+    }
+    .text-bottom{
+        margin-bottom: 3vh;
     }
 </style>

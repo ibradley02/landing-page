@@ -1,13 +1,13 @@
 <template>
   <div class="main">
-    <div>
+    <!-- <div>
         <div id="about">
           <about></about>
         </div>
         <div id="portfolio">
           <portfolio></portfolio>
         </div>
-    </div>
+    </div> -->
   </div>
 </template>
 

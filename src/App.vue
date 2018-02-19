@@ -4,7 +4,6 @@
     <div class="main">
       <router-view></router-view>
     </div>
-    <footbar></footbar>
   </div>
 </template>
 
