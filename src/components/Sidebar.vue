@@ -82,7 +82,6 @@ a {
 }
 
 #sidebar {
-  position: fixed;
   background: rgb(252, 252, 252);
   color: #000;
   min-width: 30vw;
@@ -131,7 +130,7 @@ a {
   margin-left: 50vw;
   display: flex;
   float: none;
-  margin-top: 15vh;
+  margin-top: 20vh;
   text-align: center;
   width: 10%;
   border: 1px solid #000;
@@ -141,6 +140,7 @@ a {
 
 .image-style {
   border-radius: 50%;
+  margin-top: 1em;
   height: 20rem;
   width: 20rem;
 }
