@@ -2,15 +2,15 @@
 <div>
     <div class="row" id="sidebar">
         <div class="col-sm-6">
-            <div class="row">
+            <div class="row content">
                 <div class="col-sm-12">
                     <img src="https://avatars3.githubusercontent.com/u/32853737?s=400&u=7ba97f8aa0fae545fe5a56e5aecc37aaa604548a&v=4" class="image-style">
-                    <h1>Ian Bradley</h1>
+                    <h2>Ian Bradley</h2>
                     <h4 class="subheading">Full Stack Web Developer</h4>
                 </div>
             </div>
         </div>
-        <div class="col-sm-6">
+        <div class="col-sm-6 content">
             <div class="row">
                 <ul class="list-unstyled">
                     <li class="col-sm-12 text-top text-style">
@@ -24,10 +24,14 @@
                         </a>
                     </li>
                     <li class="col-sm-12 text-style">
+                      <a>
                         <h5>Resume</h5>
+                      </a>
                     </li>
                     <li class="col-sm-12 text-style">
+                      <a>
                         <h5>Contact</h5>
+                      </a>
                     </li>
                     <li class="col-sm-12 text-bottom">
                         <a href="http://github.com/ibradley02" target=_blank>
@@ -49,7 +53,9 @@ export default {
   data() {
     return {};
   },
-  methods: {},
+  methods: {
+    
+  },
   components: {},
   computed: {}
 };
@@ -85,7 +91,7 @@ a {
   background: rgb(252, 252, 252);
   color: #000;
   min-width: 30vw;
-  max-width: 50vw;
+  max-width: 80vw;
   min-height: 10vh;
   z-index: 1 !important;
   margin: auto auto;
@@ -124,7 +130,7 @@ a {
   background: rgb(252, 252, 252);
   color: #000;
   min-width: 15vw;
-  max-width: 20vw;
+  max-width: 30vw;
   min-height: 10vh;
   z-index: 1 !important;
   margin-left: 50vw;
@@ -141,8 +147,8 @@ a {
 .image-style {
   border-radius: 50%;
   margin-top: 1em;
-  height: 20rem;
-  width: 20rem;
+  height: 15rem;
+  width: 15rem;
 }
 
 .heading {
