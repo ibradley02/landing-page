@@ -1,16 +1,16 @@
 <template>
 <div>
     <div class="row" id="sidebar">
-        <div class="col-sm-6">
+        <div class="col-md-12 col-sm-12">
             <div class="row content">
-                <div class="col-sm-12">
+                <div class="col-sm-12 col-md-12">
                     <img src="https://avatars3.githubusercontent.com/u/32853737?s=400&u=7ba97f8aa0fae545fe5a56e5aecc37aaa604548a&v=4" class="image-style">
                     <h2>Ian Bradley</h2>
                     <h4 class="subheading">Full Stack Web Developer</h4>
                 </div>
             </div>
         </div>
-        <div class="col-sm-6 content">
+        <div class="col-md-12 col-sm-12 content">
             <div class="row">
                 <ul class="list-unstyled">
                     <li class="col-sm-12 text-top text-style">
@@ -54,7 +54,7 @@ export default {
     return {};
   },
   methods: {
-    
+
   },
   components: {},
   computed: {}
@@ -95,10 +95,9 @@ a {
   min-height: 10vh;
   z-index: 1 !important;
   margin: auto auto;
-  display: flex;
+  display: block;
   float: none;
   text-align: center;
-  width: 10%;
   border: 1px solid #000;
   box-shadow: 2px 2px 5px black;
   text-decoration: none;
