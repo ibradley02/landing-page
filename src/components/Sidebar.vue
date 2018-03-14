@@ -6,7 +6,7 @@
                 <div class="col-sm-12 col-md-12">
                     <img src="https://avatars3.githubusercontent.com/u/32853737?s=400&u=7ba97f8aa0fae545fe5a56e5aecc37aaa604548a&v=4" class="image-style">
                     <h2>Ian Bradley</h2>
-                    <h4 class="subheading">Full Stack Web Developer</h4>
+                    <h3 class="subheading">Full Stack Web Developer</h3>
                 </div>
             </div>
         </div>
