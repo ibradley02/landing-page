@@ -1,6 +1,12 @@
 <template>
   <div class="main">
     <sidebar></sidebar>
+    <div v-if="about">
+      <about></about>
+    </div>
+    <div v-if="portfolio">
+      <portfolio></portfolio>
+    </div>
   </div>
 </template>
 
