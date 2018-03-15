@@ -89,7 +89,7 @@ a {
   min-height: 10vh;
   z-index: 1 !important;
   margin: auto auto;
-  display: flex;
+  display: block;
   float: none;
   text-align: center;
   width: 10%;
@@ -123,7 +123,7 @@ a {
   position: fixed;
   background: rgb(252, 252, 252);
   color: #000;
-  min-width: 15vw;
+  min-width: 5vw;
   max-width: 20vw;
   min-height: 10vh;
   z-index: 1 !important;
@@ -141,8 +141,8 @@ a {
 .image-style {
   border-radius: 50%;
   margin-top: 1em;
-  height: 20rem;
-  width: 20rem;
+  height: 15rem;
+  width: 15rem;
 }
 
 .heading {
